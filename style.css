@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #F86D4C;
+}
+.content{
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+    min-height: 550px;
+    height: auto;
+    background: #f0f0f0;
+    box-shadow: 3px 3px 3px #f0f0f0;
+}
+.item{
+    max-width: 100%;
+    height: 50px;
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid #939393;
+}
+.item:last-child{
+    border-bottom: none;
+}
+.item input[type="checkbox"]{
+    float: left;
+    margin-left: 1%;
+    width: 7%;
+    height: 20px;
+    display: block;
+}
+.item p{
+    text-align: justify;
+    margin-left: 8%;
+    width: 80%;
+    height: 10px;
+}
